@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Thanks for buying my item :)</h1>
+{#    <p>You have now purchased {{ Product.paypal_dict.invoice }} </p>#}
+{#    <p>Your payment of $ {{QueryDict.payment_gross}} was successfully paid to {{ business }}</p>#}
+
+    <h2>POST</h2>
+    {{ post }}
+
+    <h2>GET</h2>
+    {{ get }}
+
+{#    <p>  “Your payment of ${{ get.QueryDict.paypal_dict.invoice }} was successfully paid to  {{ get.business }}”</p>#}
+{% endblock %}
