@@ -15,10 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '-)q97o*e3%(dqji!3am95ci!lb_7szhog%2-*b95q+sfdkqbz5'
 
@@ -27,6 +23,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'http://30968d6f.ngrok.io']
 SITE_ID = 2
+
+#   internal ips for debug toolbar
+INTERNAL_IPS = ('127.0.0.1',)
 
 # Application definition
 
@@ -161,3 +160,4 @@ PAYPAL_RECEIVER_EMAIL = 'ed.walker.merchant@hotmail.co.uk'
 
 # tinymce settings
 TINYMCE_JS_ROOT = os.path.join(BASE_DIR, "static", 'js', 'tinymce', 'tinymce.min.js')
+
