@@ -24,7 +24,6 @@ Pillow==3.1.1
 pymongo==3.4.0
 python-dateutil==2.4.2
 requests==2.18.1
-reusable-blog-app==1.0.0
 six==1.10.0
 SQLAlchemy==1.1.9
 sqlparse==0.2.3
