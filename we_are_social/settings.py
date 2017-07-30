@@ -46,12 +46,12 @@ INSTALLED_APPS = [
     'paypal_store',
     'products',
     'paypal.standard.ipn',
-    'magazines',
     'debug_toolbar',
     'tinymce',
     'emoticons',
     'threads',
     'polls',
+    'magazines',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
