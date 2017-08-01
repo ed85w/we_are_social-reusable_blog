@@ -13,4 +13,4 @@ wheel==0.24.0
 django-paypal==0.2.7
 stripe==1.62.0
 gunicorn==19.7.1
-git+https://github.com/ed85w/reusable-blog-app.git
+git+https://github.com/ed85w/we_are_social-reusable_blog
