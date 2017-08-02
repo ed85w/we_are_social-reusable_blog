@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-)q97o*e3%(dqji!3am95ci!lb_7szhog%2-*b95q+sfdkqbz5'
 
 # ALLOWED_HOSTS = ['127.0.0.1', 'http://30968d6f.ngrok.io']
-ALLOWED_HOSTS = ['127.0.0.1', 'http://30968d6f.ngrok.io']
+ALLOWED_HOSTS = ['127.0.0.1', '30968d6f.ngrok.io', 'eds-we-are-social.herokuapp.com']
 SITE_ID = 2
 
 # Application definition
