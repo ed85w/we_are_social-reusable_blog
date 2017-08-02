@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'tinymce',
     'emoticons',
     'disqus',
-    'reusable_blog',
     'home',
     'accounts',
     'paypal_store',
