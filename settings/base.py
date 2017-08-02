@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # 'rest_framework',
     'tinymce',
     'emoticons',
+    'reusable_blog',
     'disqus',
     'home',
     'accounts',
