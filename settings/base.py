@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'magazines',
     'threads',
     'polls',
-    'dj-database-url'
+    'dj_database_url'
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
