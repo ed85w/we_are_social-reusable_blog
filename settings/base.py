@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.flatpages',
     'django_forms_bootstrap',
     'paypal.standard.ipn',
-    # 'rest_framework',
     'tinymce',
     'emoticons',
     'reusable_blog',
@@ -50,7 +49,6 @@ INSTALLED_APPS = [
     'magazines',
     'threads',
     'polls',
-    'dj_database_url'
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
