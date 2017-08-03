@@ -1,19 +1,20 @@
 from base import *
-# import dj_database_url
+import dj_database_url
+import settings
 
 DEBUG = False
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 # Load the ClearDB connection details from the environment variable
-# DATABASES = {
-#     'default': dj_database_url.config('CLEARDB_DATABASE_URL')
-# }
+DATABASES = {
+    'default': dj_database_url.config('CLEARDB_DATABASE_URL')
+}
 
 #  Stripe environment variables
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_WPgPzAQeCfea08WkskzTqxii')
