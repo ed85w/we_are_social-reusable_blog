@@ -606,18 +606,6 @@
 },
 {
     "fields": {
-        "created_at": "2017-07-11T19:30:21Z",
-        "subject": 2,
-        "name": "First test thread",
-        "user": [
-            "test@email.com"
-        ]
-    },
-    "model": "threads.thread",
-    "pk": 1
-},
-{
-    "fields": {
         "created_at": "2017-07-11T19:32:33.277Z",
         "subject": 2,
         "name": "Does this work?",
@@ -678,18 +666,6 @@
 },
 {
     "fields": {
-        "comment": "<p>Why does the thread say \"thread object\"</p>",
-        "created_at": "2017-07-11T19:30:46Z",
-        "user": [
-            "ed.walker@hotmail.co.uk"
-        ],
-        "thread": 4
-    },
-    "model": "threads.post",
-    "pk": 1
-},
-{
-    "fields": {
         "comment": "<p>I wonder if this works? :-)&nbsp;</p>",
         "created_at": "2017-07-11T19:32:33.278Z",
         "user": [
@@ -747,18 +723,6 @@
     },
     "model": "threads.post",
     "pk": 6
-},
-{
-    "fields": {
-        "comment": "<p>Another post</p>",
-        "created_at": "2017-07-12T19:00:12.301Z",
-        "user": [
-            "test@email.com"
-        ],
-        "thread": 1
-    },
-    "model": "threads.post",
-    "pk": 7
 },
 {
     "fields": {
