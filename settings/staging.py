@@ -19,8 +19,10 @@ DATABASES = {
 #  Stripe environment variables
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_WPgPzAQeCfea08WkskzTqxii')
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_6vCTHyEBILOhXzg3gfMd9U8w')
+# change the above to set to live stripe
 
 # paypal environment variables
 SITE_URL = 'https://eds-we-are-social.herokuapp.com/'
 PAYPAL_NOTIFY_URL = 'https://eds-we-are-social.herokuapp.com/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'ed.walker.merchant@hotmail.co.uk'
+# remove .merchant from above to set to live paypal (check paypal acct)
